@@ -1,0 +1,97 @@
+.container-fluid {
+    margin-top: 6rem;
+}
+
+.list-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-list {
+    width: 82%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.card {
+    width: 12rem;
+    max-height: 350px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: inherit;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.card-title {
+    font-size: 12px;
+}
+
+.bg-image img{
+    height: 82vh;
+    object-fit: initial;
+}
+
+.movie-details {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 50px;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    background-color: rgba(227, 224, 235, 0.837);
+}
+
+.movie-details img {
+    width: 12rem;
+    object-fit: contain;
+}
+
+.summary {
+    font-size: 13px;
+    background-color: rgb(51, 50, 61);
+    color: #dfdddd;
+    border: 1px solid #1e1d1d;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.summary p {
+    padding-left: 20px;
+}
+
+.movie-title {
+    font-weight: 500px;
+    font-size: 34px;
+}
+
+
+.seach-input {
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+}
+
+.seach-input:focus {
+    outline: none;
+}

@@ -1,0 +1,130 @@
+h1 {
+    font-weight: 400;
+    font-size: 2em;
+}
+  
+li {
+    text-decoration: none;
+}
+  
+.header {
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: #fff;
+    box-shadow: inset 0 -1px 0 0 #e1e1e1;
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+  
+.header .title {
+    left: 0;
+    margin: auto;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+  
+.name {
+    margin: 0;
+    --focus-outline-offset: -2px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1rem;
+}
+  
+.header-utility {
+    height: 100%;
+}
+  
+.utility-items {
+    padding-left: 3.125vw;
+    padding-right: 3.125vw;
+    box-sizing: border-box;
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: flex-end;
+}
+  
+  
+.list {
+    list-style: none;
+}
+  
+  
+.utility-item.-search {
+    display: flex;
+    flex: 1;
+}
+  
+.utility-item .button {
+    border-radius: 0;
+    transition: none;
+    align-items: center;
+    display: inline-flex;
+    background: none;
+    border: none;
+    text-align: center;
+}
+  
+  
+.button {
+    box-sizing: border-box;
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.025rem;
+    line-height: 1.25rem;
+}
+  
+  
+button {
+    font-family: inherit;
+    text-transform: inherit;
+}
+  
+.list-label {
+    padding-left: 0.5rem;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.025rem;
+    line-height: 1rem;
+}
+  
+  
+.utility-item.-wishlist {
+    padding: 0.5rem;
+    max-width: none;
+    display: flex;
+}
+  
+.wishlist-count {
+    padding: 0 10px;
+}
+  
+.wishlist-container {
+    align-items: center;
+    color: currentColor;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    position: relative;
+}
+  
+@media screen and (max-width: 48rem) {
+    .utility-item .list-label {
+      display: none;
+    }
+}
+  
